@@ -26,7 +26,7 @@ const messages = [
   "Govt. Arya Degree College की सबसे प्यारी दोस्त – तुम हो Dimple! 💖💖",
   "So... Happy Birthday, my sweet junior! 💙❤️💖Tum hamesha aise hi muskurati raho!",
   "और Thank You 😊मुझे मेरी college life के सबसे अच्छे पलों में से एक देने के लिए 💖💖",
-    "Ek chhoti si baat yaad rakhna 💭 — main hamesha tera backbone hoon 💪💙 Kabhi bhi khud ko akela mat samajhna, buddy 😊🤝"
+"Bas ek chhoti si baat yaad rakhna 💭 — main hamesha tumhare saath hoon 💪💙Kabhi bhi khud ko akela mat samajhna... – Ayush 😊"
 ];
 
 const messageBox = document.getElementById("message");
