@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+     <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+    <style>
+       
+
+  
+        * {
+            margin: 0;
+            padding: 0;
+            
+    font-family: 'Tiro Devanagari Hindi', serif;
+            
+        }
+
+        .main {
+            background-image: url(images/bcard.jpg);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .heart {
+            background-image: url(images/hearts.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 99vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+
+        }
+
+
+        #circle
+        {
+            height: 100px;
+            width: 100px;
+            border: 2px wheat solid;
+            border-radius: 100px;
+            margin-top: 8vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 0 0 30px #00f7ff;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 1;
+           
+        }
+
+        .messagebox {
+    height: 40vh;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 1;
+    border: 2px wheat solid;
+    box-shadow: 0 0 30px #00f7ff;
+    margin-top: 5vh;
+
+    overflow-y: auto;         /* Vertical scroll if text exceeds */
+    overflow-x: hidden;       /* Hide horizontal overflow */
+    white-space: pre-wrap;    /* Wrap lines */
+    word-wrap: break-word;    /* Break long words */
+    font-size: 1.2rem;
+    text-align: left;         /* Optional: left-align text */
+}
+    </style>
+    </head>
+    <body>
+        <audio src="images/bm.mp3" autoplay loop></audio>
+<div class="main">
+    <div class="heart">
+        <div class="box1">
+            <div id="circle"></div>
+            <h1>Hii Soneyo</h1>
+            <div class="messagebox">
+             <div id="message"></div>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+
+<script src="second.js"></script>
+
+
+</html>
