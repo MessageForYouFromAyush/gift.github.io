@@ -5,7 +5,6 @@ const circleBox = document.getElementById("circle");
 
 function changeImage() {
     circleBox.style.opacity = 0;
-
     setTimeout(() => {
         circleBox.style.backgroundImage = `url('${images[imageIndex]}')`;
         circleBox.style.opacity = 1;
@@ -18,7 +17,7 @@ setInterval(changeImage, 3000);
 
 // TYPING TEXT LINE BY LINE WITH SCROLL EFFECT
 const messages = [
-      "Aaj tumhara birthday hai 💖",
+    "Aaj tumhara birthday hai 💖",
     "Aur mujhe tumसे कुछ कहना hai... थोड़ा emotional, थोड़ा funny 😉",
     "10 July 2006 को एक cute और thodi सी bewakoof सी लड़की का जन्म हुआ था 😅",
     "और आज वो लड़की पूरे 19 साल की हो गई 💖",
