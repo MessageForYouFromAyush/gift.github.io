@@ -62,22 +62,35 @@
            
         }
 
+       h1{
+            margin: 10px;
+        }
+
         .messagebox {
-    height: 30vh;
-    width: 80vw;
+    height: 55vh;
+    width: 90vw;
     border-radius: 20px;
-    padding: 10px;
+    
     opacity: 1;
     border: 2px wheat solid;
     box-shadow: 0 0 30px #00f7ff;
-    margin-top: 5vh;
-
-    overflow-y: auto;         /* Vertical scroll if text exceeds */
+    
+padding: 10px;
+    overflow-y: hidden;         /* Vertical scroll if text exceeds */
     overflow-x: hidden;       /* Hide horizontal overflow */
-    white-space: pre-wrap;    /* Wrap lines */
-    word-wrap: break-word;    /* Break long words */
+    /* Break long words */
     font-size: 1.2rem;
     text-align: left;         /* Optional: left-align text */
+}
+#message p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
     </style>
     </head>
